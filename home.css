@@ -1,0 +1,38 @@
+:root{
+  --bg:#FBFAF3; --surface:#FFFFFF; --ink:#1E2422; --muted:#56564A; --line:#E4E2D5;
+  --brand:#417586; --brand-dark:#2C5260; --brand-tint:#EEF3F3;
+  --gold:#A8945C; --font-head:'Cormorant Garamond','EB Garamond',Georgia,serif;
+  --font-body:'Nunito Sans',system-ui,sans-serif;
+  --radius:8px; --maxw:760px;
+  --shadow:0 1px 0 rgba(30,36,34,.03),0 12px 32px -18px rgba(30,36,34,.18);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+  font-family:var(--font-body);font-size:17px;line-height:1.55}
+.skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip:focus{left:16px;top:16px;width:auto;height:auto;padding:8px 12px;background:#fff;z-index:20}
+.ws-header{background:var(--surface);border-bottom:1px solid var(--line)}
+.ws-header__inner{max-width:var(--maxw);margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:14px}
+.ws-logo img{display:block;width:56px;height:56px;border-radius:50%;object-fit:cover}
+.ws-brand{font-family:var(--font-head);font-size:22px;color:var(--brand-dark);line-height:1.15}
+.ws-brand small{display:block;font-family:var(--font-body);font-size:12px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:2px}
+main{max-width:var(--maxw);margin:0 auto;padding:28px 20px 80px}
+.kicker{color:var(--gold);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:13px;margin:0 0 6px}
+h1{font-family:var(--font-head);font-weight:600;font-size:40px;color:var(--brand-dark);
+  margin:0 0 10px;line-height:1.15}
+.lead{margin:0 0 28px;color:var(--muted);max-width:42em}
+.lib{display:flex;flex-direction:column;gap:10px}
+.card{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:16px;row-gap:2px;
+  align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;text-decoration:none;color:inherit;box-shadow:var(--shadow)}
+.card:hover{border-color:var(--brand);background:var(--brand-tint)}
+.card__week{grid-row:1 / span 2;font:800 12px/1.2 var(--font-body);letter-spacing:.08em;
+  text-transform:uppercase;color:var(--brand);min-width:4.8em}
+.card__title{grid-column:2;font-family:var(--font-head);font-size:22px;color:var(--brand-dark);font-weight:600}
+.card__meta{grid-column:2;font-size:14px;color:var(--muted)}
+@media (max-width:520px){
+  h1{font-size:32px}
+  .card{grid-template-columns:1fr;row-gap:4px}
+  .card__week{grid-row:auto}
+}
