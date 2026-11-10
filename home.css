@@ -23,16 +23,17 @@ h1{font-family:var(--font-head);font-weight:600;font-size:40px;color:var(--brand
   margin:0 0 10px;line-height:1.15}
 .lead{margin:0 0 28px;color:var(--muted);max-width:42em}
 .lib{display:flex;flex-direction:column;gap:10px}
-.card{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:16px;row-gap:2px;
-  align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:12px;
+.card{display:grid;grid-template-columns:5.5em minmax(0,1fr);grid-template-areas:"week title" "week meta";
+  column-gap:16px;row-gap:2px;align-items:center;text-align:left;
+  background:var(--surface);border:1px solid var(--line);border-radius:12px;
   padding:14px 18px;text-decoration:none;color:inherit;box-shadow:var(--shadow)}
 .card:hover{border-color:var(--brand);background:var(--brand-tint)}
-.card__week{grid-row:1 / span 2;font:800 12px/1.2 var(--font-body);letter-spacing:.08em;
-  text-transform:uppercase;color:var(--brand);min-width:4.8em}
-.card__title{grid-column:2;font-family:var(--font-head);font-size:22px;color:var(--brand-dark);font-weight:600}
-.card__meta{grid-column:2;font-size:14px;color:var(--muted)}
+.card__week{grid-area:week;align-self:center;justify-self:start;font:800 12px/1.2 var(--font-body);letter-spacing:.08em;
+  text-transform:uppercase;color:var(--brand);white-space:nowrap}
+.card__title{grid-area:title;font-family:var(--font-head);font-size:22px;line-height:1.2;color:var(--brand-dark);font-weight:600;text-align:left}
+.card__meta{grid-area:meta;font-size:14px;color:var(--muted);text-align:left}
 @media (max-width:520px){
   h1{font-size:32px}
-  .card{grid-template-columns:1fr;row-gap:4px}
-  .card__week{grid-row:auto}
+  .card{grid-template-columns:minmax(0,1fr);grid-template-areas:"week" "title" "meta";row-gap:4px}
+  .card__title{font-size:20px}
 }
