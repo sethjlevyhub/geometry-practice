@@ -220,7 +220,7 @@ window.GEO_PRACTICE = {
         }
       ],
       "type": "test-style",
-      "diagram": null
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" width=\"360\" height=\"200\" role=\"img\" aria-label=\"Two crossing lines with four angles numbered 1 (upper-right), 2 (upper-left), 3 (lower-left), and 4 (lower-right). Angles 1 and 3 are vertical angles.\"><rect width=\"360\" height=\"200\" fill=\"#FBFAF3\"/><line x1=\"41.1\" y1=\"124.5\" x2=\"318.9\" y2=\"75.5\" stroke=\"#1E2422\" stroke-width=\"3\" stroke-linecap=\"butt\"/><polygon points=\"32.3,126 44,117.9 46.1,129.7\" fill=\"#1E2422\"/><polygon points=\"327.7,74 316,82.1 313.9,70.3\" fill=\"#1E2422\"/><line x1=\"150.6\" y1=\"180.8\" x2=\"209.4\" y2=\"19.2\" stroke=\"#1E2422\" stroke-width=\"3\" stroke-linecap=\"butt\"/><polygon points=\"147.5,189.3 146.3,175 157.6,179.1\" fill=\"#1E2422\"/><polygon points=\"212.5,10.7 213.7,25 202.4,20.9\" fill=\"#1E2422\"/><circle cx=\"180\" cy=\"100\" r=\"4\" fill=\"#1E2422\"/><text x=\"209.1\" y=\"75.6\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"17\" font-weight=\"700\">1</text><text x=\"160.7\" y=\"77\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"17\" font-weight=\"700\">2</text><text x=\"150.9\" y=\"124.4\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"17\" font-weight=\"700\">3</text><text x=\"199.3\" y=\"123\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"17\" font-weight=\"700\">4</text></svg>"
     },
     {
       "id": "q10",
