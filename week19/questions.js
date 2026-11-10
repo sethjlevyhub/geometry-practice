@@ -52,7 +52,7 @@ window.GEO_PRACTICE = {
         }
       ],
       "type": "test-style",
-      "diagram": null
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 215\" width=\"360\" height=\"215\" role=\"img\" aria-label=\"Right triangle: the ladder is the 13 ft hypotenuse, the ground side is 5 ft, and the wall side is unknown.\"><rect width=\"360\" height=\"215\" fill=\"#FBFAF3\"/><line x1=\"24\" y1=\"190\" x2=\"317\" y2=\"190\" stroke=\"#A8945C\" stroke-width=\"4\" stroke-linecap=\"butt\"/><line x1=\"295\" y1=\"190\" x2=\"295\" y2=\"32\" stroke=\"#A8945C\" stroke-width=\"5\" stroke-linecap=\"butt\"/><line x1=\"235\" y1=\"190\" x2=\"295\" y2=\"46\" stroke=\"#1E2422\" stroke-width=\"3.5\" stroke-linecap=\"butt\"/><circle cx=\"235\" cy=\"190\" r=\"4\" fill=\"#1E2422\"/><circle cx=\"295\" cy=\"46\" r=\"4\" fill=\"#1E2422\"/><path d=\"M282,190 L282,177 L295,177\" fill=\"none\" stroke=\"#D2693C\" stroke-width=\"2.5\" stroke-linecap=\"butt\" stroke-linejoin=\"round\"/><text x=\"232.5\" y=\"112.6\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">13 ft</text><text x=\"265\" y=\"207\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">5 ft</text><text x=\"313.6\" y=\"118\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#D2693C\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">?</text></svg>"
     },
     {
       "id": "q3",
@@ -100,7 +100,7 @@ window.GEO_PRACTICE = {
         }
       ],
       "type": "test-style",
-      "diagram": null
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 205\" width=\"360\" height=\"205\" role=\"img\" aria-label=\"Right triangle with a 30° angle at A, hypotenuse labeled 20, and the side opposite the 30° angle labeled with a question mark.\"><rect width=\"360\" height=\"205\" fill=\"#FBFAF3\"/><polygon points=\"60,175 259.2,175 259.2,60\" fill=\"none\" stroke=\"#1E2422\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M246.2,175 L246.2,162 L259.2,162\" fill=\"none\" stroke=\"#D2693C\" stroke-width=\"2.5\" stroke-linecap=\"butt\" stroke-linejoin=\"round\"/><path d=\"M100,175 A40,40 0 0,0 94.6,155\" fill=\"none\" stroke=\"#D2693C\" stroke-width=\"2.5\" stroke-linecap=\"butt\" stroke-linejoin=\"round\"/><text x=\"125.7\" y=\"157.4\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#D2693C\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"15\" font-weight=\"700\">30°</text><text x=\"270.8\" y=\"117.5\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#D2693C\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">?</text><text x=\"150\" y=\"100.8\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">20</text><text x=\"45.7\" y=\"179.1\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#1E2422\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">A</text><text x=\"273.4\" y=\"183.2\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#1E2422\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">C</text><text x=\"270.8\" y=\"46.6\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#1E2422\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">B</text></svg>"
     },
     {
       "id": "q5",
@@ -148,7 +148,7 @@ window.GEO_PRACTICE = {
         }
       ],
       "type": "test-style",
-      "diagram": null
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" width=\"360\" height=\"200\" role=\"img\" aria-label=\"A rectangle 12 long and 8 tall, with a semicircle of radius 4 attached to its right side.\"><rect width=\"360\" height=\"200\" fill=\"#FBFAF3\"/><polygon points=\"40,36 232,36 232,164 40,164\" fill=\"#417586\" fill-opacity=\"0.12\" stroke=\"#1E2422\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M232,36.0 A64,64 0 0,1 232,164.0\" fill=\"#D2693C\" fill-opacity=\"0.18\" stroke=\"#1E2422\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\"/><line x1=\"232\" y1=\"36\" x2=\"232\" y2=\"164\" stroke=\"#56564A\" stroke-width=\"1.5\" stroke-linecap=\"butt\" stroke-dasharray=\"5 4\"/><line x1=\"232\" y1=\"100\" x2=\"296\" y2=\"100\" stroke=\"#D2693C\" stroke-width=\"2.5\" stroke-linecap=\"butt\" stroke-dasharray=\"6 5\"/><circle cx=\"232\" cy=\"100\" r=\"3.5\" fill=\"#1E2422\"/><text x=\"264\" y=\"86\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#D2693C\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"15\" font-weight=\"700\">r = 4</text><text x=\"136\" y=\"22\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">12</text><text x=\"23.4\" y=\"100\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">8</text></svg>"
     },
     {
       "id": "q7",
@@ -172,7 +172,7 @@ window.GEO_PRACTICE = {
         }
       ],
       "type": "test-style",
-      "diagram": null
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 225\" width=\"360\" height=\"225\" role=\"img\" aria-label=\"A cylinder labeled with radius 3 in and height 5 in.\"><rect width=\"360\" height=\"225\" fill=\"#FBFAF3\"/><path d=\"M100,50 L100,150 A60,20 0 0,0 220,150 L220,50\" fill=\"none\" stroke=\"#1E2422\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\"/><ellipse cx=\"160\" cy=\"50\" rx=\"60\" ry=\"20\" fill=\"#FBFAF3\" stroke=\"#1E2422\" stroke-width=\"3\"/><path d=\"M100,150 A60,20 0 0,1 220,150\" fill=\"none\" stroke=\"#56564A\" stroke-width=\"2\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" stroke-dasharray=\"6 5\"/><line x1=\"160\" y1=\"50\" x2=\"220\" y2=\"50\" stroke=\"#D2693C\" stroke-width=\"2.5\" stroke-linecap=\"butt\" stroke-dasharray=\"6 5\"/><circle cx=\"160\" cy=\"50\" r=\"3.5\" fill=\"#1E2422\"/><text x=\"190\" y=\"17\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#D2693C\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"15\" font-weight=\"700\">3 in</text><text x=\"255.4\" y=\"100\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"15\" font-weight=\"700\">5 in</text></svg>"
     },
     {
       "id": "q8",
@@ -220,7 +220,7 @@ window.GEO_PRACTICE = {
         }
       ],
       "type": "test-style",
-      "diagram": null
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" width=\"360\" height=\"200\" role=\"img\" aria-label=\"A rectangle labeled 3 in by 2 in with the note 1 in = 4 ft.\"><rect width=\"360\" height=\"200\" fill=\"#FBFAF3\"/><polygon points=\"50,30 215,30 215,140 50,140\" fill=\"#417586\" fill-opacity=\"0.12\" stroke=\"#1E2422\" stroke-width=\"3\" stroke-linejoin=\"round\"/><text x=\"132.5\" y=\"158\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">3 in</text><text x=\"19.4\" y=\"85\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#417586\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">2 in</text><text x=\"285\" y=\"70\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#56564A\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"14\" font-weight=\"600\">Scale:</text><text x=\"285\" y=\"92\" dy=\"0.35em\" text-anchor=\"middle\" fill=\"#D2693C\" font-family=\"Nunito Sans, system-ui, sans-serif\" font-size=\"16\" font-weight=\"700\">1 in = 4 ft</text></svg>"
     },
     {
       "id": "q10",
