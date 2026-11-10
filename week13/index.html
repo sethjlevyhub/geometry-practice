@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Intro to Geometry · Practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="config.js"></script>
+<script src="questions.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="ws-header"><div class="ws-header__inner">
+  <div class="ws-logo"><img src="../aic-logo.jpg" alt="Acceptance in Christ logo" width="56" height="56"></div>
+  <div class="ws-brand">AIC Hybrid Learning<small>Intro to Geometry</small></div>
+  <a class="ws-home" href="../">All weeks</a>
+</div></header>
+<div class="ws-titlebar">
+  <h1 id="page-title">Practice</h1>
+  <p id="intro">Choose the best answer for each question.</p>
+</div>
+<div id="demo-banner" class="demo-banner" hidden></div>
+<div class="progressbar" id="progressbar" hidden>
+  <div class="progressbar__top">
+    <span class="progressbar__count" id="pcount">0 answered</span>
+    <span class="timer" id="timer" hidden><span class="timer__label">Time left</span> <span class="timer__value" id="timer-val">40:00</span></span>
+  </div>
+  <div class="progressbar__track" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" id="ptrack">
+    <div class="progressbar__fill" id="pfill"></div>
+  </div>
+</div>
+<main id="main" tabindex="-1">
+  <section class="signin" id="signin" aria-labelledby="signin-h">
+    <h2 id="signin-h">Sign in to start</h2>
+    <p class="signin__lead">Use the name and password Mr. Levy gave you.</p>
+    <div id="signin-msg" class="notice err" role="alert" hidden></div>
+    <form id="signin-form" autocomplete="on">
+      <label class="field"><span class="field__label">Name</span>
+        <input id="si-name" name="username" type="text" autocomplete="username" required></label>
+      <label class="field"><span class="field__label">Password</span>
+        <input id="si-pass" name="password" type="password" autocomplete="current-password" required></label>
+      <button class="btn btn--big" type="submit" id="si-submit">Sign In</button>
+    </form>
+  </section>
+  <section class="welcome" id="welcome" hidden>
+    <h2>Welcome, <span id="w-name"></span></h2>
+    <p>This week has <b id="w-count">10</b> multiple-choice questions. Your answers save on this device until you submit. After you submit, your teacher will see your score, and you will see how you did.</p>
+    <button class="btn btn--big" type="button" id="begin">Begin practice</button>
+  </section>
+  <div id="status" class="notice" role="alert" hidden><span id="status-msg"></span></div>
+  <form id="exam" hidden novalidate></form>
+  <section class="thanks" id="thanks" hidden tabindex="-1">
+    <div class="thanks__icon" aria-hidden="true">✓</div>
+    <h2>Submitted. Nice work, <span id="t-name"></span>.</h2>
+    <p>Your answers were sent to your teacher.</p>
+    <span class="score" id="t-score"></span>
+    <div class="review" id="review" hidden></div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
